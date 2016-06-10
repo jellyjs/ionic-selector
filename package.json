@@ -1,0 +1,25 @@
+{
+  "name": "ionic-selector",
+  "version": "0.0.1",
+  "description": "Replaces tagName of your app's main component to ion-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellyjs/ionic-selector.git"
+  },
+  "keywords": [
+    "ionic",
+    "angular",
+    "ionic2",
+    "angular2"
+  ],
+  "author": "Kamil Kisiela <kamil.kisiela@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jellyjs/ionic-selector/issues"
+  },
+  "homepage": "https://github.com/jellyjs/ionic-selector#readme"
+}
