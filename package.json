@@ -1,6 +1,6 @@
 {
   "name": "ionic-selector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Replaces tagName of your app's main component with ion-app",
   "main": "index.js",
   "typings": "index.d.ts",
