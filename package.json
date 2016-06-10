@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Replaces tagName of your app's main component with ion-app",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/jellyjs/ionic-selector/issues"
   },
-  "homepage": "https://github.com/jellyjs/ionic-selector#readme"
+  "homepage": "https://github.com/jellyjs/ionic-selector#readme",
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^1.8.10"
+  }
 }
