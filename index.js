@@ -8,9 +8,9 @@ function ionicSelector(selector) {
   var app = document.querySelector(selector || 'app');
   var ionApp = document.createElement('ion-app');
 
-  app.attributes.map(function (attr) {
-    ionApp.setAttribute(attr.name, attr.value);
-  });
+  for (var x = 0; x < app.attributes.length; x++) {
+    ionApp.setAttribute(app.attributes[x].name, app.attributes[x].value);
+  }
 
   document.body.replaceChild(ionApp, app);
 }

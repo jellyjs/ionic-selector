@@ -1,7 +1,7 @@
 {
   "name": "ionic-selector",
   "version": "0.0.1",
-  "description": "Replaces tagName of your app's main component to ion-app",
+  "description": "Replaces tagName of your app's main component with ion-app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
